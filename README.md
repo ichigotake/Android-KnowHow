@@ -1,7 +1,7 @@
 Android-KnowHow
 ===============
 
-Androidの実装でハマった情報、調べた情報等をまとめるレポジトリ
+Androidの実装でハマったところ、調べた情報等をまとめるレポジトリ
 
 
 基本的に [Wiki](https://github.com/ichigotake/Android-KnowHow/wiki) の方へまとめていきます
