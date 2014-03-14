@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="783.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.TwoColumnContainerImpl</node>
+    <node x="552.125" y="0.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleCounterContainer</node>
+    <node x="271.0" y="56.5">net.ichigotake.sandbox.app.fragment.collaboration.basic.Pane</node>
+    <node x="57.541071428571456" y="225.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment</node>
+    <node x="125.0" y="579.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.MultiPaneContainer</node>
+    <node x="835.125" y="33.5">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment.RequestOnClickListener</node>
+    <node x="113.5" y="681.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.TwoColumnContainer</node>
+    <node x="0.0" y="33.5">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment.RequestOnClickListener</node>
+    <node x="540.5410714285715" y="225.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment</node>
+    <node x="459.25" y="482.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.FragmentFactory</node>
+    <node x="505.0" y="579.0">net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleActivity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.FragmentFactory">
+      <point x="115.75" y="103.5" />
+      <point x="404.79107142857146" y="452.0" />
+      <point x="520.375" y="452.0" />
+      <point x="-20.375" y="-26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleCounterContainer">
+      <point x="0.0" y="-103.5" />
+      <point x="772.0410714285715" y="205.0" />
+      <point x="782.25" y="205.0" />
+      <point x="98.625" y="82.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleCounterContainer">
+      <point x="185.20000000000005" y="-103.5" />
+      <point x="474.2410714285715" y="205.0" />
+      <point x="650.75" y="205.0" />
+      <point x="-32.875" y="82.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment.RequestOnClickListener" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment">
+      <point x="62.75" y="49.0" />
+      <point x="188.25" y="205.0" />
+      <point x="196.44107142857143" y="205.0" />
+      <point x="-92.60000000000002" y="-103.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment.RequestOnClickListener">
+      <point x="92.60000000000002" y="-103.5" />
+      <point x="864.6410714285714" y="205.0" />
+      <point x="897.875" y="205.0" />
+      <point x="-62.75" y="49.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.FragmentFactory" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment">
+      <point x="20.375" y="-26.0" />
+      <point x="561.125" y="452.0" />
+      <point x="656.2910714285715" y="452.0" />
+      <point x="-115.75" y="103.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.Pane">
+      <point x="-185.20000000000005" y="-103.5" />
+      <point x="586.8410714285715" y="185.0" />
+      <point x="355.75" y="185.0" />
+      <point x="28.25" y="26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.TwoColumnContainerImpl" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.TwoColumnContainer">
+      <point x="0.0" y="-126.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.Pane">
+      <point x="0.0" y="-103.5" />
+      <point x="289.04107142857146" y="205.0" />
+      <point x="299.25" y="205.0" />
+      <point x="-28.25" y="26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.TwoColumnContainer" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.MultiPaneContainer">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.FragmentFactory">
+      <point x="115.75" y="103.5" />
+      <point x="887.7910714285715" y="462.0" />
+      <point x="601.875" y="462.0" />
+      <point x="61.125" y="-26.0" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment.RequestOnClickListener" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleContentFragment">
+      <point x="62.75" y="49.0" />
+      <point x="1023.375" y="205.0" />
+      <point x="957.2410714285714" y="205.0" />
+      <point x="185.2" y="-103.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.FragmentFactory" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment">
+      <point x="-61.125" y="-26.0" />
+      <point x="479.625" y="462.0" />
+      <point x="173.29107142857146" y="462.0" />
+      <point x="-115.75" y="103.5" />
+    </edge>
+    <edge source="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment" target="net.ichigotake.sandbox.app.fragment.collaboration.basic.SampleSubContentFragment.RequestOnClickListener">
+      <point x="-185.20000000000005" y="-103.5" />
+      <point x="103.84107142857141" y="205.0" />
+      <point x="62.75" y="205.0" />
+      <point x="-62.75" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.44075829383886256" x="544.0645161290322" y="397.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

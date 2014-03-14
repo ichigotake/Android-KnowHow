@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sandbox</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fragment_collaboration_fragment_count">count: %d</string>
+    <string name="fragment_collaboration_fragment_count_request">count request</string>
+
+</resources>
