@@ -11,7 +11,7 @@
 
 Android アプリの各種コンポーネントを繋ぐもの。画面(Activity)やバックグラウンド処理(Service)の呼び出し、端末全体に飛ばされるイベント(BroadcastIntent)を受け取る際などで利用する共通インターフェース。
 
-- [Intent について](https://gist.github.com/ichigotake/7ce7d91e9c29c3c38d51]
+- [Intent について](https://gist.github.com/ichigotake/7ce7d91e9c29c3c38d51)
     - 「まとめ」の項目が初学の参考になるかも
 
 
