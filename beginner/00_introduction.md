@@ -39,7 +39,7 @@ Android アプリの各種コンポーネントを繋ぐもの。画面(Activity
 
 通知というと「PUSH通知」をイメージする初学者も多い印象(執筆者調べ)があり、外部サーバーが無いと出せないと思っている方もいる。
 
-「PUSH通知」のフローを紐解いてみると、実行のトリガーが外部サーバになっているだけのローカル通知と同じものである。
+「PUSH通知」のフローを紐解いてみると、実行のトリガーが外部サーバになっているだけのローカル通知である。
 
 - [Notifications | Android Developers](http://developer.android.com/guide/topics/ui/notifiers/notifications.html)
 - [RemoteViews | udinic](https://udinic.wordpress.com/tag/remoteviews/)
