@@ -46,7 +46,7 @@ Android アプリの各種コンポーネントを繋ぐもの。画面(Activity
 
 よくある通常の Activity 起動 や、処理に失敗した Service クラスの再呼び出し等で利用する事が多い。
 
-### 端末全体にイベントを飛ばす (BroadcastIntent)
+## 端末全体にイベントを飛ばす (BroadcastIntent)
 
 例えば、アプリをインストールした際には、端末全体に Intent#ACTION_PACKAGE_ADDED イベントが飛ばされる。
 
@@ -54,7 +54,7 @@ BroadcastReceiver を Activity や Service に用意しておくと、アプリ�
 
 他のアプリとの間でルールを決めておくと、独自の Action を定義してアプリ間の連携をする事も可能。
 
-### バックグラウンドで実行する (Service)
+## バックグラウンドで実行する (Service)
 
 Activity は、ユーザの意志や OS の都合で殺されたり等され、Activity のライフサイクルは短い。画面の生存に関わらずに中断されたくない処理や、一定の時間間隔で実行したいものを Service クラスや AlarmManager 等で実装する。
 
