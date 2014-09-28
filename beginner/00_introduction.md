@@ -66,11 +66,15 @@ Android アプリの各種コンポーネントを繋ぐもの。画面(Activity
 
 ## 端末全体にイベントを飛ばす (BroadcastIntent)
 
-例えば、アプリをインストールした際には、端末全体に Intent#ACTION_PACKAGE_ADDED イベントが飛ばされる。
+端末全体に飛ばされるイベントは BroadcastIntent と呼ばれる。
 
-BroadcastReceiver を Activity や Service に用意しておくと、アプリが端末にインストールされた瞬間に何か処理をする実装が出来る。
+例えば、アプリをインストールした際には、端末全体に `Intent#ACTION_PACKAGE_ADDED` イベントが飛ばされる。
+
+`Intent#ACTION_PACKAGE_ADDED` に対応した BroadcastReceiver を用意しておくと、アプリが端末にインストールされた瞬間に何か処理をする実装が出来る。
 
 他のアプリとの間でルールを決めておくと、独自の Action を定義してアプリ間の連携をする事も可能。
+
+SomeActivity で何かが更新された際に OtherActivity を更新させたい場合などにも利用出来る。
 
 ## バックグラウンドで実行する (Service)
 
